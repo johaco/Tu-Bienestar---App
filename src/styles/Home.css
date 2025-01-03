@@ -52,6 +52,77 @@
 .home-button:hover {
   background-color: #5aff7a;
 }
+.health-section {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 1200px;
+  text-align: center;
+
+}
+
+.health-section h2 {
+  font-size: 3.0rem;
+  margin-bottom: 20px;
+  
+  
+}
+
+.health-section p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  opacity: 0.8;
+  line-height: 1.8;
+}
+
+.health-content {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.health-item {
+  flex: 1;
+  min-width: 280px;
+  background: #05664f; /* Fondo con opacidad */
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.health-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+.health-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.6)); /* Resalta el ícono */
+}
+
+.health-item h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* Para resaltar subtítulos */
+}
+
+.health-item p {
+  font-size: 1rem;
+  opacity: 0.9; /* Mantén una ligera opacidad */
+  line-height: 1.6;
+}
+.home-section img {
+  width: 100%; /* Ajusta al ancho de la carta */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 10px; /* Coincide con los bordes de la carta */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade profundidad */
+  margin-bottom: 15px; /* Espaciado entre la imagen y el texto */
+}
 
 /* Animacion del boton comenzar */
 @-webkit-keyframes fadeInLeft {
