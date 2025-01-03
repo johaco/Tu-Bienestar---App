@@ -6,11 +6,11 @@ const Home = () => {
       <div className="home-hero">
         <div className="home-overlay">
           {/* Title */}
-          <h1 className="home-title">Tu Bienestar</h1>
+          <h1 className="home-title animated fadeInLeft">Tu Bienestar</h1>
           {/* subtitle */}
-          <h2 className='home-subtitle'>Comienza tu viaje hacia una vida más saludable y activa</h2>
+          <h2 className='home-subtitle animated fadeInRight'>Comienza tu viaje hacia una vida más saludable y activa</h2>
           {/* button */}
-          <button className='home-button'>Comenzar</button>
+          <button className='home-button animated fadeInUpBig'>Comenzar</button>
         </div>
       </div>
       <div>
