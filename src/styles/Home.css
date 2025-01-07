@@ -22,6 +22,17 @@ body {
   text-align: center;
 }
 
+.general-title {
+  font-size: 3.0rem;
+  margin-bottom: 20px;
+}
+
+.general-paragraph {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  opacity: 0.8;
+  line-height: 1.8;
+}
 
 /* ---------------------------------------------------------------
    2. Hero Section (sección principal con fondo)
@@ -85,17 +96,7 @@ body {
    3. Sección de salud
 --------------------------------------------------------------- */
 
-.health-section h2 {
-  font-size: 3.0rem;
-  margin-bottom: 20px;
-}
 
-.health-section p {
-  font-size: 1.2rem;
-  margin-bottom: 40px;
-  opacity: 0.8;
-  line-height: 1.8;
-}
 
 .health-content {
   display: flex;
@@ -147,9 +148,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  background-color: #f8f9fa;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .dieta-container {
@@ -182,23 +180,13 @@ body {
 /* ---------------------------------------------------------------
    5. Ejercicio y actividad física
 --------------------------------------------------------------- */
-.home-ejercicio {
-  background-color: #f5f5f5;
-  border-radius: 10px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-}
+
 
 .ejercicio-container {
   max-width: 900px;
   margin: 0 auto;
 }
 
-.ejercicio-description {
-  font-size: 1.1rem;
-  color: #333;
-  margin-bottom: 20px;
-  line-height: 1.6;
-}
 
 .ejercicio-benefits,
 .ejercicio-tips {
@@ -234,20 +222,11 @@ body {
    6. Control del Estrés
 --------------------------------------------------------------- */
 .control-estres {
-  background-color: #eaf4f1; /* Fondo suave y relajante */
   padding: 40px;
-  border-radius: 10px;
   margin: 50px 0;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-.control-estres h2 {
-  font-size: 3rem;
-  color: #007BFF;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
 
 .control-estres .video-container {
   max-width: 800px;
@@ -297,20 +276,11 @@ body {
    7. Prevención de Enfermedades
 --------------------------------------------------------------- */
 .prevencion-enfermedades {
-  background-color: #f8f9fa;
   padding: 40px;
-  border-radius: 10px;
   margin: 50px 0;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-.prevencion-enfermedades h2 {
-  font-size: 3rem;
-  color: #28a745;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
 
 .prevencion-enfermedades .checklist {
   margin-top: 30px;

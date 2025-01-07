@@ -15,8 +15,8 @@ const Home = () => {
 
       {/* Introduction Section */}
       <div className="health-section section-standard">
-        <h2 className="text-dark">¿Por qué es importante cuidar tu salud?</h2>
-        <p className="text-dark">
+        <h2 className="text-dark general-title">¿Por qué es importante cuidar tu salud?</h2>
+        <p className="text-dark general-paragraph">
           Mantener un estilo de vida saludable puede ayudarte a prevenir enfermedades, mejorar tu bienestar y aumentar tu energía diaria. Aquí encontrarás recursos útiles para comenzar tu viaje hacia una vida más activa y saludable.
         </p>
         <div className="health-content">
@@ -45,8 +45,8 @@ const Home = () => {
             <img src="/src/assets/dieta-balanceada.png" alt="Dieta Balanceada" />
           </div>
           <div className="dieta-content">
-            <h3>Dieta Balanceada</h3>
-            <p>
+            <h2 className='text- dark general-title'>Dieta Balanceada</h2>
+            <p className="text-dark general-paragraph">
               Una dieta saludable es clave para mantener tu cuerpo en óptimas condiciones. Aprende a equilibrar tus alimentos y conoce cuáles son los nutrientes esenciales para tu bienestar.
             </p>
             <ul className="dieta-tips">
@@ -60,10 +60,10 @@ const Home = () => {
       </div>
 
       {/* Ejercicio y Actividad Física Section */}
-      <div className="home-section home-ejercicio section-standard">
-        <h2>Ejercicio y Actividad Física</h2>
+      <div className="home-section section-standard">
+        <h2 className='text-dark general-title'>Ejercicio y Actividad Física</h2>
         <div className="ejercicio-container">
-          <p className="ejercicio-description">
+          <p className="text-dark general-paragraph">
             El ejercicio es clave para tu bienestar. No solo mejora tu salud física, sino también tu estado de ánimo. Aquí te mostramos los beneficios y formas sencillas de empezar.
           </p>
 
@@ -89,7 +89,7 @@ const Home = () => {
 
       {/* Control del Estrés Section */}
       <section className="control-estres">
-        <h2>Control del Estrés</h2>
+        <h2 className='text-dark general-title'>Control del Estrés</h2>
         <div className="video-container">
           <iframe src="https://www.youtube.com/embed/someVideoID" title="Control del Estrés Video" frameBorder="0" allowFullScreen></iframe>
         </div>
@@ -114,7 +114,7 @@ const Home = () => {
 
       {/* Prevención de Enfermedades Section */}
       <section className="prevencion-enfermedades">
-        <h2>Prevención de Enfermedades</h2>
+        <h2 className='text-dark general-title'>Prevención de Enfermedades</h2>
         <div className="checklist">
           <h3>Chequeos Médicos Importantes</h3>
           <ul>
