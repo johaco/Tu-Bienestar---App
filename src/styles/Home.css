@@ -1,3 +1,31 @@
+/* ---------------------------------------------------------------
+   1. Estilos generales
+--------------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* ---------------------------------------------------------------
+   1. Estilos generales (Secciones)
+--------------------------------------------------------------- */
+.section-standard {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 1200px;
+  text-align: center;
+}
+
+
+/* ---------------------------------------------------------------
+   2. Hero Section (sección principal con fondo)
+--------------------------------------------------------------- */
 .home-hero {
   position: relative;
   height: 100vh;
@@ -17,12 +45,12 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* Ajusta el nivel de opacidad */
-  z-index: 1; /* Coloca el overlay por debajo del contenido */
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
 }
 
 .home-overlay {
-  position: relative; /* Asegura que el contenido esté sobre el overlay */
+  position: relative;
   z-index: 2;
 }
 
@@ -50,21 +78,16 @@
 }
 
 .home-button:hover {
-  background-color: #5aff7a;
+  background-color: #4ce868;
 }
-.health-section {
-  margin: 50px auto;
-  padding: 20px;
-  max-width: 1200px;
-  text-align: center;
 
-}
+/* ---------------------------------------------------------------
+   3. Sección de salud
+--------------------------------------------------------------- */
 
 .health-section h2 {
   font-size: 3.0rem;
   margin-bottom: 20px;
-  
-  
 }
 
 .health-section p {
@@ -84,7 +107,7 @@
 .health-item {
   flex: 1;
   min-width: 280px;
-  background: #05664f; /* Fondo con opacidad */
+  background: #05664f;
   border-radius: 10px;
   padding: 20px;
   text-align: center;
@@ -102,35 +125,29 @@
   width: 60px;
   height: 60px;
   margin-bottom: 15px;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.6)); /* Resalta el ícono */
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.6));
 }
 
 .health-item h4 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* Para resaltar subtítulos */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .health-item p {
   font-size: 1rem;
-  opacity: 0.9; /* Mantén una ligera opacidad */
+  opacity: 0.9;
   line-height: 1.6;
 }
-.home-section img {
-  width: 100%; /* Ajusta al ancho de la carta */
-  height: auto; /* Mantiene la proporción de la imagen */
-  border-radius: 10px; /* Coincide con los bordes de la carta */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade profundidad */
-  margin-bottom: 15px; /* Espaciado entre la imagen y el texto */
-}
-/* Seccion 1 = dieta balanciada */
+
+/* ---------------------------------------------------------------
+   4. Dieta balanceada
+--------------------------------------------------------------- */
 .home-dieta {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  margin: 40px 0;
-  padding: 20px;
-  background-color: #f8f9fa; /* Fondo claro */
+  background-color: #f8f9fa;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -162,139 +179,238 @@
   margin-bottom: 10px;
 }
 
-.home-button {
-  background-color: #5aff7a;
-  color: white;
-  border: none;
-  padding: 10px 20px;
+/* ---------------------------------------------------------------
+   5. Ejercicio y actividad física
+--------------------------------------------------------------- */
+.home-ejercicio {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.ejercicio-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ejercicio-description {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.ejercicio-benefits,
+.ejercicio-tips {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.ejercicio-benefits h4,
+.ejercicio-tips h4 {
+  font-size: 1.4rem;
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+.ejercicio-benefits ul,
+.ejercicio-tips ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ejercicio-benefits ul li,
+.ejercicio-tips ul li {
   font-size: 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  color: #555;
+  margin-bottom: 12px;
 }
 
-.home-button:hover {
-  background-color: #4ce868;
+.ejercicio-benefits ul li strong,
+.ejercicio-tips ul li strong {
+  color: #333;
+}
+/* ---------------------------------------------------------------
+   6. Control del Estrés
+--------------------------------------------------------------- */
+.control-estres {
+  background-color: #eaf4f1; /* Fondo suave y relajante */
+  padding: 40px;
+  border-radius: 10px;
+  margin: 50px 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-
-/* Animacion del boton comenzar */
-@-webkit-keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+.control-estres h2 {
+  font-size: 3rem;
+  color: #007BFF;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
+.control-estres .video-container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.control-estres iframe {
+  width: 100%;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.control-estres .consejos {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.control-estres .consejo {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.control-estres .consejo img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.control-estres .consejo h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.control-estres .consejo p {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+/* ---------------------------------------------------------------
+   7. Prevención de Enfermedades
+--------------------------------------------------------------- */
+.prevencion-enfermedades {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 50px 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.prevencion-enfermedades h2 {
+  font-size: 3rem;
+  color: #28a745;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.prevencion-enfermedades .checklist {
+  margin-top: 30px;
+  text-align: left;
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.prevencion-enfermedades .checklist ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.prevencion-enfermedades .checklist ul li {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.prevencion-enfermedades .checklist ul li::before {
+  content: "✔";
+  color: #28a745;
+  margin-right: 10px;
+}
+
+.prevencion-enfermedades .info-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.prevencion-enfermedades .info-item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.prevencion-enfermedades .info-item h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.prevencion-enfermedades .info-item p {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+/* ---------------------------------------------------------------
+   8. Animaciones
+--------------------------------------------------------------- */
 @keyframes fadeInLeft {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
   }
-
   to {
     opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
 }
 
 .fadeInLeft {
-  -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
-}
-
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-/* Animacion del subtitulo */
-@-webkit-keyframes fadeInRight {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
 }
 
 @keyframes fadeInRight {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
   }
-
   to {
     opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
 }
 
 .fadeInRight {
-  -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
-}
-
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-/* Animacion boton comenzar*/
-@-webkit-keyframes fadeInUpBig {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 2000px, 0);
-    transform: translate3d(0, 2000px, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
 }
 
 @keyframes fadeInUpBig {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(0, 2000px, 0);
     transform: translate3d(0, 2000px, 0);
   }
-
   to {
     opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
 }
 
 .fadeInUpBig {
-  -webkit-animation-name: fadeInUpBig;
   animation-name: fadeInUpBig;
 }
 
 .animated {
-  -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
