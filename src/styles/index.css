@@ -8,6 +8,12 @@ body {
   margin: 0;
 }
 
+.container-global {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
 .card {
   border-radius: 15px; /* Esquinas redondeadas */
   background: linear-gradient(to right, #ffffff, #e3f2fd);

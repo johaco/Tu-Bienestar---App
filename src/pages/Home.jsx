@@ -3,7 +3,7 @@ import '../styles/Home.css';
 const Home = () => {
   return (
     <>
-      <header>
+     <main>
         <div className="home-hero">
           <div className="home-overlay">
             <h1 className="home-title animated fadeInLeft">Tu Bienestar</h1>
@@ -13,9 +13,9 @@ const Home = () => {
             <button className="home-button animated fadeInUpBig">Comenzar</button>
           </div>
         </div>
-      </header>
+   
 
-      <main>
+     
 
         {/* Introduction Section */}
         <div className="health-section section-standard">

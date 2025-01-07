@@ -8,7 +8,9 @@ import "./styles/index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
+    <div className="container-global">
       <App />
+    </div>
     </BrowserRouter>
   </React.StrictMode>
 );

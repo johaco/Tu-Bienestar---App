@@ -9,7 +9,9 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
-      <Navbar />
+      <header>
+        <Navbar />
+      </header>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/calculator" element={<IMCCalculator />} />
