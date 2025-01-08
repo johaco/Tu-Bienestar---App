@@ -14,6 +14,10 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
+main {
+  margin-top: 66px;
+}
+
 .card {
   border-radius: 15px; /* Esquinas redondeadas */
   background: linear-gradient(to right, #ffffff, #e3f2fd);
