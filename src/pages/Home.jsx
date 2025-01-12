@@ -16,7 +16,7 @@ const Home = () => {
         </div>
 
 
-        {/* Introduction Section */}
+        {/* Section Salud */}
         <section className="health-section section-standard">
           <div className='section-content'>
             <h2 className="text-dark general-title">¿Por qué es importante cuidar tu salud?</h2>

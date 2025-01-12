@@ -99,10 +99,8 @@ body {
 }
 
 /* ---------------------------------------------------------------
-   3. Sección de salud
+   3. Section salud
 --------------------------------------------------------------- */
-
-
 
 .health-content {
   display: flex;
@@ -189,7 +187,7 @@ body {
 }
 
 /* ---------------------------------------------------------------
-   5. Ejercicio y actividad física
+   5. Section Ejercicio y actividad física
 --------------------------------------------------------------- */
 
 
@@ -208,7 +206,7 @@ body {
 .ejercicio-benefits h4,
 .ejercicio-tips h4 {
   font-size: 1.4rem;
-  color: #007BFF;
+  color: #05664f;
   margin-bottom: 10px;
 }
 
