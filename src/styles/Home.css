@@ -228,7 +228,7 @@ body {
   color: #333;
 }
 /* ---------------------------------------------------------------
-   6. Control del Estrés
+   6. Section Control del Estrés
 --------------------------------------------------------------- */
 .control-estres {
   padding: 40px;
@@ -236,10 +236,33 @@ body {
   text-align: center;
 }
 
+.control-estres .descripcion-general {
+  margin: 20px 0;
+}
+
+.control-estres .consejos-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+.control-estres .consejos-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.control-estres .consejos-list .icono-consejo {
+  font-size: 30px;
+  color: #5aff7a; 
+  margin-right: 15px;
+}
 
 .control-estres .video-container {
   max-width: 800px;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 .control-estres iframe {
@@ -249,38 +272,7 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-.control-estres .consejos {
-  display: flex;
-  justify-content: space-around;
-  gap: 30px;
-  flex-wrap: wrap;
-  margin-top: 40px;
-}
 
-.control-estres .consejo {
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 20px;
-  width: 250px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  text-align: left;
-}
-
-.control-estres .consejo img {
-  width: 60px;
-  height: 60px;
-  margin-bottom: 15px;
-}
-
-.control-estres .consejo h4 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.control-estres .consejo p {
-  font-size: 1rem;
-  opacity: 0.8;
-}
 /* ---------------------------------------------------------------
    7. Prevención de Enfermedades
 --------------------------------------------------------------- */

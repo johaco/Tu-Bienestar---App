@@ -116,31 +116,54 @@ const Home = () => {
         </section>
 
         {/* Control del Estrés Section */}
-        <section className="control-estres section-standard">
-          <div className='section-content'>
-            <h2 className='text-dark general-title'>Control del Estrés</h2>
-            <div className="video-container">
-              <iframe src="https://youtu.be/iWU1KUCsYOI" title="Control del Estrés Video" frameBorder="0" allowFullScreen></iframe>
+        <section className="control-estres section-standard bg-dark text-white">
+          <div className="section-content">
+            {/* Título Principal */}
+            <h2 className="text-white general-title">Control del Estrés</h2>
+
+            {/* Breve Descripción */}
+            <div className="descripcion-general">
+              <p className="text-white general-paragraph">
+                El manejo del estrés es esencial para una vida equilibrada. Aquí te presentamos consejos clave para relajarte y mantener un estado de calma incluso en situaciones difíciles.
+              </p>
+
+              <ul className="consejos-list">
+                <li>
+                  <i className="fas fa-spa icono-consejo"></i>
+                  <strong>Técnicas de relajación:</strong>&nbsp;Practica la meditación y la respiración profunda para reducir el estrés.
+                </li>
+                <li>
+                  <i className="fas fa-dumbbell icono-consejo"></i>
+                  <strong>Ejercicio Regular:</strong>&nbsp;Haz ejercicio de manera regular para liberar tensiones y mejorar tu bienestar.
+                </li>
+                <li>
+                  <i className="fas fa-walking icono-consejo"></i >
+                  <strong>Caminatas al aire libre:</strong>&nbsp;Salir a caminar en la naturaleza ayuda a reducir el estrés y mejora tu ánimo.
+                </li>
+              </ul>
             </div>
-            <div className="consejos">
-              <div className="consejo">
-                <img src="icon-relax.svg" alt="Relájate" />
-                <h4>Técnicas de relajación</h4>
-                <p>Practica la meditación y la respiración profunda para reducir el estrés.</p>
-              </div>
-              <div className="consejo">
-                <img src="icon-exercise.svg" alt="Ejercicio" />
-                <h4>Ejercicio Regular</h4>
-                <p>Haz ejercicio de manera regular para liberar tensiones y mejorar tu bienestar.</p>
-              </div>
-              <div className="consejo">
-                <img src="icon-walk.svg" alt="Caminar" />
-                <h4>Caminatas al aire libre</h4>
-                <p>Salir a caminar en la naturaleza ayuda a reducir el estrés y mejora tu ánimo.</p>
-              </div>
+
+            {/* Introducción al Video */}
+            <p className="text-white general-paragraph">
+              Descubre cómo incorporar estos consejos en tu rutina diaria con este video breve y educativo:
+            </p>
+
+            {/* Video de YouTube */}
+            <div className="video-container">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/GdTmUCK5ggo?si=VGlPVV-tmtzLsd5b"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
         </section>
+
 
         {/* Prevención de Enfermedades Section */}
         <section className="prevencion-enfermedades section-standard">
