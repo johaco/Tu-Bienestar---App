@@ -43,7 +43,7 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Dieta Balanceada Section */}
+        {/* Section: Dieta Balanceada  */}
         <section className="home-section section-dieta section-standard bg-dark text-white">
           <div className="dieta-container section-content">
             <div className="dieta-image">
@@ -85,7 +85,7 @@ const Home = () => {
         </section>
 
 
-        {/* Ejercicio y Actividad Física Section */}
+        {/* Section: Ejercicio y Actividad Física */}
         <section className="home-section section-standard">
           <div className='section-content'>
             <h2 className='text-dark general-title'>Ejercicio y Actividad Física</h2>
@@ -115,7 +115,7 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Control del Estrés Section */}
+        {/* Section: Control del Estrés */}
         <section className="control-estres section-standard bg-dark text-white">
           <div className="section-content">
             {/* Título Principal */}
@@ -165,35 +165,40 @@ const Home = () => {
         </section>
 
 
-        {/* Prevención de Enfermedades Section */}
+        {/* Section: Prevención de Enfermedades Section */}
         <section className="prevencion-enfermedades section-standard">
           <div className='section-content'>
             <h2 className='text-dark general-title'>Prevención de Enfermedades</h2>
             <div className="checklist">
               <h3>Chequeos Médicos Importantes</h3>
               <ul>
-                <li>Chequeo general anual</li>
-                <li>Examen de colesterol y glucosa</li>
-                <li>Vacunación y refuerzos</li>
-                <li>Examen de cáncer según edad</li>
+                <li><i className="fas fa-check-circle icon-check" ></i> Examen de colesterol y glucosa</li>
+                <li><i className="fas fa-check-circle icon-check" ></i> Vacunación y refuerzos</li>
+                <li><i className="fas fa-check-circle icon-check" ></i> Examen de cáncer según edad</li>
               </ul>
             </div>
             <div className="info-container">
-              <div className="info-item">
-                <h4>Chequeos de Sangre</h4>
-                <p>Realizar exámenes de sangre periódicos para conocer tu estado de salud.</p>
-              </div>
-              <div className="info-item">
-                <h4>Vacunas y Prevención</h4>
-                <p>Consulta a tu médico sobre las vacunas necesarias y su calendario.</p>
-              </div>
-              <div className="info-item">
-                <h4>Ejercicio Preventivo</h4>
-                <p>El ejercicio regular no solo mantiene tu cuerpo activo, sino que previene enfermedades.</p>
+              <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <h3>Chequeos de Sangre</h3>
+                    <p>Realizar exámenes de sangre periódicos para conocer tu estado de salud.</p>
+                  </div>
+                  <div className="carousel-item">
+                    <h3>Vacunas y Prevención</h3>
+                    <p>Consulta a tu médico sobre las vacunas necesarias y su calendario.</p>
+                  </div>
+                  <div className="carousel-item">
+                    <h3>Ejercicio Preventivo</h3>
+                    <p>El ejercicio regular no solo mantiene tu cuerpo activo, sino que previene enfermedades.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </section>
+
+
       </main>
     </>
   );

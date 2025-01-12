@@ -99,7 +99,7 @@ body {
 }
 
 /* ---------------------------------------------------------------
-   3. Section salud
+   3. Section: salud
 --------------------------------------------------------------- */
 
 .health-content {
@@ -146,7 +146,7 @@ body {
 }
 
 /* ---------------------------------------------------------------
-   4. Dieta balanceada
+   4. Section: Dieta balanceada
 --------------------------------------------------------------- */
 
 .dieta-container {
@@ -187,7 +187,7 @@ body {
 }
 
 /* ---------------------------------------------------------------
-   5. Section Ejercicio y actividad física
+   5. Section: Ejercicio y actividad física
 --------------------------------------------------------------- */
 
 
@@ -228,7 +228,7 @@ body {
   color: #333;
 }
 /* ---------------------------------------------------------------
-   6. Section Control del Estrés
+   6. Section: Control del Estrés
 --------------------------------------------------------------- */
 .control-estres {
   padding: 40px;
@@ -274,7 +274,7 @@ body {
 
 
 /* ---------------------------------------------------------------
-   7. Prevención de Enfermedades
+   7. Section: Prevención de Enfermedades
 --------------------------------------------------------------- */
 .prevencion-enfermedades {
   padding: 40px;
@@ -300,9 +300,8 @@ body {
   margin-bottom: 15px;
 }
 
-.prevencion-enfermedades .checklist ul li::before {
-  content: "✔";
-  color: #28a745;
+.prevencion-enfermedades .icon-check{
+  color: #05664f;
   margin-right: 10px;
 }
 
@@ -314,24 +313,16 @@ body {
   margin-top: 40px;
 }
 
-.prevencion-enfermedades .info-item {
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 20px;
-  width: 250px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  text-align: left;
-}
 
-.prevencion-enfermedades .info-item h4 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+.prevencion-enfermedades .info-container h3 {
+  color: #05664f;
 }
 
 .prevencion-enfermedades .info-item p {
   font-size: 1rem;
   opacity: 0.8;
 }
+
 
 /* ---------------------------------------------------------------
    8. Animaciones
