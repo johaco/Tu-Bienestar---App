@@ -13,7 +13,7 @@ const IMCCalculator = () => {
     };
 
     return (
-        <main>
+        <>
             <div className="container mt-5">
                 <div className="card shadow-lg p-4">
                     <h1 className="text-center text-primary">Calculadora de IMC</h1>
@@ -77,7 +77,7 @@ const IMCCalculator = () => {
                     )}
                 </div>
             </div>
-        </main>
+        </>
     );
 };
 
