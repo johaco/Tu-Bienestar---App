@@ -12,33 +12,6 @@ body {
   color: #333;
 }
 
-/* ---------------------------------------------------------------
-   1. Estilos generales (Secciones)
---------------------------------------------------------------- */
-.section-standard {
-  margin: 100px 0; /* Espaciado vertical */
-  padding: 20px 0; /* Espaciado interno en la parte superior e inferior */
-  width: 100%; /* Ocupa todo el ancho de la pantalla */
-}
-
-.section-content {
-  margin: 0 auto; /* Centrar el contenido */
-  padding: 10px 20px; /* Opcional: Espaciado horizontal */
-  max-width: 1200px; /* Limita el ancho del contenido */
-  text-align: center; /* Alineación del texto */
-}
-
-.general-title {
-  font-size: 3.0rem;
-  margin-bottom: 20px;
-}
-
-.general-paragraph {
-  font-size: 1.2rem;
-  margin-bottom: 40px;
-  opacity: 0.8;
-  line-height: 1.8;
-}
 
 /* ---------------------------------------------------------------
    2. Hero Section (sección principal con fondo)
