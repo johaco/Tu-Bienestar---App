@@ -1,0 +1,31 @@
+
+.btn-imc {
+    background-color: #05664f;
+    border-color: #05664f;
+    color: white;
+}
+
+.btn-imc:hover {
+    background-color: #044d3a; /* Un tono más oscuro para el efecto hover */
+    border-color: #044d3a;
+}
+
+.container input::placeholder {
+    color: white; /* Cambia el color a blanco */
+    opacity: 0.8; /* Ajusta la transparencia si es necesario */
+}
+
+.container .form-group select {
+    color: white; /* Cambia el color a blanco */
+    opacity: 0.8; /* Ajusta la transparencia si es necesario */
+}
+.container option {
+    color: white; /* Cambia el color a blanco */
+    opacity: 0.8; /* Ajusta la transparencia si es necesario */
+}
+/* Personalizar el focus de los inputs y selects */
+.container .form-control:focus {
+    border-color: #5aff7a; /* Borde verde */
+    box-shadow: 0 0 0 0.25rem rgba(5, 102, 79, 0.5); /* Sombra verde translúcida */
+    outline: none; /* Opcional: eliminar el borde interno */
+}
