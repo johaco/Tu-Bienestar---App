@@ -25,7 +25,7 @@
 }
 /* Personalizar el focus de los inputs y selects */
 .container .form-control:focus {
-    border-color: #5aff7a; /* Borde verde */
-    box-shadow: 0 0 0 0.25rem rgba(5, 102, 79, 0.5); /* Sombra verde translúcida */
+    border-color: #05664f; /* Borde verde */
+    box-shadow:  0 0 5px #05664f; /* Sombra verde translúcida */
     outline: none; /* Opcional: eliminar el borde interno */
 }
