@@ -43,13 +43,13 @@ const useMacroCalculator = () => {
         if (formula === "mifflin") {
             bmr =
                 sex === "male"
-                    ? 10 * numericWeight + 6.25 * numericHeight - 5 * numericAge + 5
-                    : 10 * numericWeight + 6.25 * numericHeight - 5 * numericAge - 161;
+                    ? (10 * numericWeight) + (6.25 * numericHeight) - (5 * numericAge) + 5
+                    : (10 * numericWeight) + (6.25 * numericHeight) - (5 * numericAge) - 161;
         } else if (formula === "harris-benedict") {
             bmr =
                 sex === "male"
-                    ? 88.362 + 13.397 * numericWeight + 4.799 * numericHeight - 5.677 * numericAge
-                    : 447.593 + 9.247 * numericWeight + 3.098 * numericHeight - 4.330 * numericAge;
+                    ? 88.362 + (13.397 * numericWeight) + (4.799 * numericHeight) - (5.677 * numericAge)
+                    : 447.593 + (9.247 * numericWeight) + (3.098 * numericHeight) - (4.330 * numericAge);
         } else if (formula === "oms") {
             bmr = numericWeight * 24; // Ejemplo simple para la fórmula de OMS
         }
