@@ -31,9 +31,8 @@ const MacroCalculator = () => {
                             <button
                                 key={formulaType}
                                 onClick={() => setFormula(formulaType)}
-                                className={`list-group-item list-group-item-action ${
-                                    formula === formulaType ? "active" : ""
-                                }`}
+                                className={`list-group-item list-group-item-action ${formula === formulaType ? "active" : ""
+                                    }`}
                             >
                                 {formulaType === "mifflin" && "Fórmula de Mifflin-St Jeor"}
                                 {formulaType === "harris-benedict" && "Fórmula de Harris-Benedict"}
@@ -96,6 +95,9 @@ const MacroCalculator = () => {
                                 }
                                 className="form-control"
                             />
+                            {basicInfo.weight <= 0 && (
+                                <p className="text-danger">Por favor ingresa un peso válido.</p>
+                            )}
                         </div>
                     </form>
                 </div>
@@ -117,9 +119,8 @@ const MacroCalculator = () => {
                             <button
                                 key={value}
                                 onClick={() => setActivityLevel(value)}
-                                className={`list-group-item list-group-item-action ${
-                                    activityLevel === value ? "active" : ""
-                                }`}
+                                className={`list-group-item list-group-item-action ${activityLevel === value ? "active" : ""
+                                    }`}
                             >
                                 {text}
                             </button>
@@ -136,16 +137,15 @@ const MacroCalculator = () => {
                         {[
                             { value: "maintain", text: "Mantener peso" },
                             { value: "lose", text: "Perder peso" },
-                            { value: "lose-aggressive", text: "Perder peso de forma agresiva" },
+                            { value: "loseAggressive", text: "Perder peso de forma agresiva" },
                             { value: "gain", text: "Ganar peso" },
-                            { value: "gain-aggressive", text: "Ganar peso de forma agresiva" },
+                            { value: "gainAggressive", text: "Ganar peso de forma agresiva" },
                         ].map(({ value, text }) => (
                             <button
                                 key={value}
                                 onClick={() => setGoal(value)}
-                                className={`list-group-item list-group-item-action ${
-                                    goal === value ? "active" : ""
-                                }`}
+                                className={`list-group-item list-group-item-action ${goal === value ? "active" : ""
+                                    }`}
                             >
                                 {text}
                             </button>
