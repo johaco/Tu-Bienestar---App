@@ -1,4 +1,9 @@
 import '../styles/Home.css';
+import nutrition from "../assets/nutrition.png";
+import exercise from "../assets/exercise.png";
+import wellness from "../assets/wellness.png";
+import dietaBalanceada from "/src/assets/dieta-balanceada.png";
+
 
 const Home = () => {
   return (
@@ -25,17 +30,17 @@ const Home = () => {
             </p>
             <div className="health-content">
               <div className="health-item">
-                <img src="src/assets/nutrition.png" alt="Nutrición" className="health-icon" />
+                <img src={nutrition} alt="Nutrición" className="health-icon" />
                 <h4>Nutrición</h4>
                 <p>Descubre cómo una dieta balanceada puede transformar tu salud y aumentar tu energía.</p>
               </div>
               <div className="health-item">
-                <img src="src/assets/exercise.png" alt="Ejercicio" className="health-icon" />
+                <img src={exercise} alt="Ejercicio" className="health-icon" />
                 <h4>Ejercicio</h4>
                 <p>Inspírate para moverte más y fortalecer tu cuerpo con rutinas simples y efectivas.</p>
               </div>
               <div className="health-item">
-                <img src="src/assets/wellness.png" alt="Bienestar" className="health-icon" />
+                <img src={wellness} alt="Bienestar" className="health-icon" />
                 <h4>Bienestar</h4>
                 <p>Aprende técnicas para manejar el estrés y mejorar tu salud mental día a día.</p>
               </div>
@@ -47,7 +52,7 @@ const Home = () => {
         <section className="home-section section-dieta section-standard bg-dark text-white">
           <div className="dieta-container section-content">
             <div className="dieta-image">
-              <img src="/src/assets/dieta-balanceada.png" alt="Dieta Balanceada" />
+              <img src={dietaBalanceada} alt="Dieta Balanceada" />
             </div>
             <div className="dieta-content">
               <h2 className="text-start text-white general-title">Dieta Balanceada</h2>

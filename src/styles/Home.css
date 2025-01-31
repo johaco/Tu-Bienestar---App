@@ -19,7 +19,7 @@ body {
 .home-hero {
   position: relative;
   height: 100vh;
-  background: url('../assets/portada1.png') no-repeat center center/cover;
+  background: url('/Tu-Bienestar---App/portada1.png') no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;

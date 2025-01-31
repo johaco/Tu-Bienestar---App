@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logoTres from "./../assets/logo3.png";
 
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div className="container">
                 <Link className="navbar-brand" to="/">
-                    <img src="/src/assets/logo3.png" alt="logo-transparente" className="navbar-logo"/>
+                    <img src={logoTres} alt="logo-transparente" className="navbar-logo"/>
                 </Link>
                 <button
                     className="navbar-toggler"
