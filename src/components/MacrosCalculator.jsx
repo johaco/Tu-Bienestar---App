@@ -20,7 +20,6 @@ const MacroCalculator = () => {
 
     return (
         <div className="container mt-5">
-            <h1 className="text-center text-primary mb-4">Calculadora de Macros</h1>
 
             {/* Paso 1: Elige la fórmula */}
             {step === 1 && (
